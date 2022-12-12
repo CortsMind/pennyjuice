@@ -1,0 +1,346 @@
+@charset "utf-8";
+/* CSS Documnet */
+
+body {
+    font-family: Myriad Pro;
+    background-image: url("../IMAGES/homebg.gif");
+    background-size: cover;
+}
+
+
+
+/* DON'T TOUCH - THEY ARE PERFECTLY IN PLACE*/
+h3 {
+    float: right;
+    display: block;
+    padding: 0px;
+    margin: 10px;
+}
+
+h4 {
+    float: right;
+    display: block;
+    margin-right: -136px;
+    margin-top: 40px;
+}
+
+/*--------------THE START OF THE BLOG PAGE---------------*/
+
+blog {
+    float: left;
+    padding: 5px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+article h3 {
+    float: left;
+    width: 95%;
+    height: 200px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+article h4 {
+    float: left;
+    width: 100%;
+    height: 5px;
+    padding: 0px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+article h
+
+.body_pics img {
+    background-image: url(../IMAGES/homebody_pics.png);
+    position: absolute;
+}
+
+.body_logo img {
+    background-image: url(../IMAGES/pjlogo.png);
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
+
+.about_pj_logo {
+    position: absolute;
+    top: 62px;
+}
+
+.about_header_banner.png img {
+    background-image: url(../IMAGES/about_bodytop_pic.png);
+    position: absolute;
+}
+
+#banner {
+    width: 100%;
+    height: auto;
+}
+
+#logo {
+    z-index: auto;
+}
+
+.flavor_pjlogo {
+    position: absolute;
+    top: 30px;
+    left 150px;
+}
+
+/*<<<<<<<<<<--------------------------------- PUT THE PINK ROUNDED BOX HERE */
+
+/* --------DON'T TOUCH ABOVE---------*/
+
+/*----------    might not need it-----------
+#containera {
+    background-color: none;
+    width: 800px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.headera {
+    font-family: Myriad Pro;
+    text-align: left;
+} */
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    text-transform: capitalize
+}
+
+/*.topnava {
+    width: 100%;
+    background-color: #ECB5EE;
+    line-height: 35px;
+    float: left;
+<Teacher put this on his> */
+}
+
+/*------------ BELOW IS FOR THE TOP NAV A --------------*/
+.topnava {
+    z-index: 9px;
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin-left: 100px;
+    align-items: center;
+}
+
+.topnava a {
+    overflow: hidden;
+    display: flex;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    font-weight: bold;
+}
+
+.topnava ul {
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    column-gap: 12px;
+    
+}
+/*----------------------------------*/
+.topnava ul li {
+    overflow: hidden;
+    list-style: none;
+    margin-left: 180px;
+    margin-top: 80px;
+} /*-------- ^^^^ THIS MOVES THEM ^^^-------*/
+
+/*--------- BELOW IS FOR THE TOP NAV B -------------*/
+.topnavb ul {
+    float: right;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+}
+
+.topnavb ul li a {
+    display: flex;
+    top: 20px;
+}
+
+/*.topnavb ul li ul {
+    display: none;
+    position: fixed;
+    background-color:
+    padding: 4px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.topnavb ul li:hover ul {
+    display: block;
+    position: fixed;
+    background-color: #ECB5EE;
+    padding: 0px;
+    padding-left: 0px;
+    border-radius: 7px 7px 7px 7px;
+    border-bottom-width: medium;
+    margin: left;
+}
+
+.topnavb ul li:hover a {
+    display: block;
+    margin: auto;
+}
+
+.topnavb ul li ul li {
+    display: flex; 
+    flex-direction: row;
+    padding: 5px 8px;
+    text-align: center;
+}
+
+ .topnavb ul li ul li a {
+    border-radius: 4px;
+}
+*/
+/*----------- for the hover highlight color ---------------------*/
+/* .topnavb ul li ul li a:hover {
+    background-color: #f300fc;
+    display: block;
+    list-style: none;
+    text-align: left;
+    width: 100%;
+    flex-direction: row */
+}
+/* ---------------- DON'T TOUCH ABOVE --- ITS PERFECTLY DONE--------------------- */
+
+.topnavb {
+    overflow: hidden;
+    justify-content: space-around;
+    line-height: 35px;
+    margin-right: 10px;
+    position: absolute;
+    padding: 2.5px 5px;
+    left: 300px;
+    top: 40px;
+    
+}
+
+.topnavb a {
+    float: right;
+    color: black;
+    padding: 0px;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+/* ---- YESS CONTROLS IT TOP NAV B ---- */ 
+.topnavb li {
+    overflow: hidden;
+    list-style: none;
+    margin-left: 472px;
+    padding: 0px;
+} 
+
+.topnavb ul li {
+    float: right;
+    overflow: hidden;
+    margin-top: -30px;
+    margin-right: 35px;
+}
+/* ------------ For the Blog page --------- */
+.topnava_blog {
+    background-image: url(../IMAGES/blogbody.gif);
+    background-size: cover;
+    position: absolute;
+}
+
+.topnava_blog {
+    z-index: 9px;
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin-left: 100px;
+    align-items: center;
+}
+
+.topnava_blog a {
+    overflow: hidden;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    font-weight: normal;
+}
+
+.topnava_blog ul {
+    display: block;
+    position: absolute;
+    letter-spacing: 10px;
+}
+
+.topnava_blog ul li {
+    display: block;
+    list-style: none;
+}
+
+.topnavb_blog ul li {
+    display: block;
+    list-style: none;
+}
+
+#blog_body_bg img {
+    background-image: url(../IMAGES/blogbody.gif);
+    background-position: center;
+}
+/*-------------------*/
+
+.wrapper {
+    margin: 0px;
+    width: 2560px 1440px;
+}
+
+.body_p1 p {
+    font-size: 18px;
+    margin-left: 20px;
+    top: 100px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 50px;
+}
+
+.footer_info{
+    background-image: url(../IMAGES/footer%2520icons/phone_footer_icon.png);
+    background-image: url(../IMAGES/footer%2520icons/email_footer_icon.png);
+    background-image: url(../IMAGES/footer%2520icons/phone_footer_icon.png);
+    background-image: url(../IMAGES/footer%2520icons/fax_footer_icon.png);  
+    position: absolute;
+    right: 50px;
+}
+
+
+
+
+/* this is the margins for the header
+    margin-left: 319px;
+    margin-left: 472px;
+    margin-left: 835px;
+    margin-left: 989px
+    full HD 2560 x 1440 */
+
+
